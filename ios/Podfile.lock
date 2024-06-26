@@ -1,0 +1,51 @@
+PODS:
+  - fl_location (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_activity_recognition (0.0.1):
+    - Flutter
+  - geofence_service (0.0.1):
+    - Flutter
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 10.0, >= 8.4)
+  - GoogleMaps (8.4.0):
+    - GoogleMaps/Maps (= 8.4.0)
+  - GoogleMaps/Base (8.4.0)
+  - GoogleMaps/Maps (8.4.0):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - fl_location (from `.symlinks/plugins/fl_location/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_activity_recognition (from `.symlinks/plugins/flutter_activity_recognition/ios`)
+  - geofence_service (from `.symlinks/plugins/geofence_service/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  fl_location:
+    :path: ".symlinks/plugins/fl_location/ios"
+  Flutter:
+    :path: Flutter
+  flutter_activity_recognition:
+    :path: ".symlinks/plugins/flutter_activity_recognition/ios"
+  geofence_service:
+    :path: ".symlinks/plugins/geofence_service/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+
+SPEC CHECKSUMS:
+  fl_location: 68b4a6c4aad2a453493ff66f196e0748280cf43e
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_activity_recognition: 5c3b026997742b01e82424ef257db9640822ad77
+  geofence_service: e007ddec3cf8b85531e8f7b202c1ceabca669d64
+  google_maps_flutter_ios: 5bc2be60ad012e79b182ce0fb0ef5030a50fb03e
+  GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
+
+PODFILE CHECKSUM: 87a1c3e119778e0fc199a0bf909fbdc769563dac
+
+COCOAPODS: 1.15.2
